@@ -14,77 +14,12 @@
 
     <script src="https://kit.fontawesome.com/8be98b670b.js" crossorigin="anonymous"></script>
 
-    <style type="text/css">
-        .foto-perfil {
-            height: 100%;
-            width: auto;
-            max-width: 100%;
-            border-radius: 50%;
-        }
-
-        .corPrimaria {
-        background-color: #F0C808!important;
-        }
-
-        .corSecundaria {
-            background-color: #07A0C3!important;
-        }
-
-        .jumbotron {
-            margin-bottom: 0;
-        }
-
-        p {
-            font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-            color: black!important;
-        }
-
-        .icones {
-            padding-left: 5px;
-        }
-
-        .preto {
-            color: black!important;
-        }
-
-        .titulosBrancos {
-            text-decoration: underline;
-            text-underline-position: below;
-            padding-bottom: 20px;
-            font-weight: 700;
-            color: white;
-        }
-
-        .titulosVerdes {
-            text-decoration: underline;
-            text-underline-position: below;
-            padding-bottom: 20px;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: #18bc9c;   
-        }
-
-        .textoBranco {
-            color: white!important;
-            font-weight: 500;
-        }
-
-        .textoFooter {
-            margin: 0;
-            padding-top: 15px;
-            padding-bottom: 15px;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-    </style>
-
     <script type="text/javascript">
         alert("Está pagina ainda está em desenvolvimento ;)")
         alert("Cada vez que você atualiza a página tem uma frase nova do kanye west ( PORQUE ELE É UM GÊNIO!!)")
     </script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
@@ -135,7 +70,7 @@
         <div class="container">
         <h2 class="jumbotron-heading text-center titulosBrancos">Projetos</h2>
         <hr>
-          <div class="row">
+          <div class="row anime">
             <div class="col-md-6">
               <div class="card mb-4 shadow-sm">
                 <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="img/port-tecblog.PNG" data-holder-rendered="true">
@@ -209,7 +144,7 @@
 
     <!--- Sobre mim --->
     <section id="sobremim" class="jumbotron text-center corSecundaria">
-        <div class="container">
+        <div class="container anime">
             <h2 class="jumbotron-heading">Sobre mim</h2>
             <p class="lead textoBranco">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>    
         </div>
@@ -217,7 +152,7 @@
 
     <!--- Depoimentos -->
     <section id="depoimentos" class="jumbotron texter-center corPrimaria">
-        <div class="container">
+        <div class="container anime">
             <h2 class="text-center titulosBrancos" alt="porque ele é um gênio">Frases aleatórias do Kanye west</h2>
             <blockquote class="blockquote text-center">
               <p class="mb-0"  id="fraseKanye">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
@@ -227,7 +162,7 @@
     </section><!--- Fim Depoimentos -->
 
     <section id="contato" style="padding: 1px;" class="corSecundaria">
-        <div class="container-fluid" style="padding-top: 50px;">
+        <div class="container-fluid anime" style="padding-top: 50px;">
             <h3 class="text-center">Disponivel para oportunidades</h3>
             <h4 class="text-center titulosBrancos"><a class="textoBranco" href="mailto:ge251163@gmail.com?subject=Hello%20again">
 👉ge251163@gmail.com</a></h4>
@@ -241,5 +176,6 @@
     </footer>        
 
 <script src="js/main.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,76 @@
+    .foto-perfil {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    }
+
+        .corPrimaria {
+        background-color: #F0C808!important;
+        }
+
+        .corSecundaria {
+            background-color: #07A0C3!important;
+        }
+
+        .jumbotron {
+            margin-bottom: 0;
+        }
+
+        p {
+            font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: black!important;
+        }
+
+        .icones {
+            padding-left: 5px;
+        }
+
+        .preto {
+            color: black!important;
+        }
+
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #18bc9c;   
+        }
+
+        .textoBranco {
+            color: white!important;
+            font-weight: 500;
+        }
+
+        .textoFooter {
+            margin: 0;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .anime {
+            opacity: 0;
+            transform: translate3d(-200px, 0px, 0px);
+            transition: .5s;
+        }
+
+        .anime-start {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+
+
